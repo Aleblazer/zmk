@@ -1,0 +1,14 @@
+file_format: "1"
+id: zodiarm
+name: Zodiarm
+type: shield
+url: https://www.splitlogic.xyz/buildguides/zodiarm-build-guide
+requires: [blackpill]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - zodiarm_left
+  - zodiarm_right

@@ -1,0 +1,35 @@
+/*
+ * Copyright (c) 2023 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "zodiarm.dtsi"
+
+&default_transform {
+    col-offset = <7>;
+};
+
+&kscan0 {
+    col-gpios
+        , <&blackpill 29 GPIO_ACTIVE_HIGH>
+        , <&blackpill 38 GPIO_ACTIVE_HIGH>
+        , <&blackpill 39 GPIO_ACTIVE_HIGH>
+        , <&blackpill 40 GPIO_ACTIVE_HIGH>
+        , <&blackpill 41 GPIO_ACTIVE_HIGH>
+        , <&blackpill 10 GPIO_ACTIVE_HIGH>
+        , <&blackpill  2 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&right_encoder_inner {
+    status = "okay";
+};
+
+&right_encoder_upper {
+    status = "okay";
+};
+
+&right_encoder_inner {
+    status = "okay";
+};
